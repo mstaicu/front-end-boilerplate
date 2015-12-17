@@ -9,6 +9,9 @@
 		"type": "git",
 		"url": "https://github.com/mstaicu/front-end-boilerplate"
 	},
+	"scripts": {
+	    "postinstall": "node_modules/bower/bin/bower install"
+	},
 	"devDependencies": {
 		"babelify": "*",
 		"bower": "*",

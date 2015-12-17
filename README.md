@@ -4,10 +4,9 @@ A front-end application boilerplate which uses Gulp as its task runner, Browseri
 
 ## Installation
 
-1. Make sure you have Bower and NPM installed
-2. Install the required npm modules by running 'npm install'
-3. Install the front-end dependencies by issuing 'bower install'
-4. Create the app bundle by running 'gulp build'
+1. Make sure you have npm installed
+2. Issuing 'npm install' will fetch the required node modules and install all the front-end dependencies via bower
+3. Create the app bundle by running 'gulp build'
 
 ## Usage
 
