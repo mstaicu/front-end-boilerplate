@@ -58,7 +58,7 @@ gulp.task('runComponentTests', ['bundleComponents'], function(isDone) {
 });
 
 gulp.task('watch', function() {
-	gulp.watch('./src/**/*.html', ['buildTemplateCache']);
+	gulp.watch('./src/**/*.html', ['runComponentTests']);
 
 	gulp.watch('./src/**/*.js', ['runComponentTests']);
 
