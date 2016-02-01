@@ -7,4 +7,21 @@
 require('../build/templates.js');
 require('./test-component/test');
 
-angular.module('app', ['templates', 'test-component']);
+// @ifdef FAKE_BACKEND
+require('./backend');
+// @endif
+
+/**
+ * [dependencies List of dependent modules for this app]
+ * @type {Array}
+ */
+var dependencies = [
+  'templates',
+  'test-component'
+];
+
+// @ifdef FAKE_BACKEND
+dependencies.push('backend');
+// @endif
+
+angular.module('app', dependencies);

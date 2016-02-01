@@ -1,6 +1,6 @@
 angular.module('test-component')
-	.service('TestComponentService', function() {
-		this.sayHello = function() {
-			return 'Hello World';
-		}
-	});
+  .service('TestComponentService', function() {
+    this.sayHello = function() {
+      return 'Hello World';
+    }
+  });

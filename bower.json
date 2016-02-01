@@ -1,21 +1,21 @@
 {
-	"name": "app",
-	"description": "front-end app boilerplate",
-	"main": "./build/app-bundle.js",
-	"license": "MIT",
-	"moduleType": [],
-	"homepage": "",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"public/components",
-		"test",
-		"tests"
-	],
-	"dependencies": {
-		"angular": "angularjs#~1.4.8",
-		"normalize-css": "normalize.css#~3.0.3",
-		"angular-mocks": "~1.4.8"
-	}
+  "name": "app",
+  "description": "front-end app boilerplate",
+  "main": "./build/app-bundle.js",
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8",
+    "normalize-css": "normalize.css#~3.0.3",
+    "angular-mocks": "~1.4.8"
+  }
 }
