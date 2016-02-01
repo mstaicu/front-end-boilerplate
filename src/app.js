@@ -4,7 +4,7 @@
  1. Load the module which handles the templates of all the components
  2. Load any additional dependencies
 */
-require('../build/templates.js');
+require('./templates.js');
 require('./test-component/test');
 
 // @ifdef FAKE_BACKEND

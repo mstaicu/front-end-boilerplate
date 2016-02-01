@@ -35,3 +35,8 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+build/
+css/
+node_modules/
+public/
+templates.js

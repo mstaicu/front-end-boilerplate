@@ -38,7 +38,7 @@ gulp.task('buildTemplateCache', function() {
         FAKE_BACKEND: true
       }
     }))
-    .pipe(gulp.dest('./build'));
+    .pipe(gulp.dest('./src'));
 });
 
 gulp.task('bundleComponents', ['buildTemplateCache'], function() {
